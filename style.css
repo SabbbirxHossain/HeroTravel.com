@@ -6,3 +6,66 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+
+/* Defaul styles  */
+.container{
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 1rem;
+}
+
+.orange{
+  color: rgb(255, 84, 0);
+}
+
+.title{
+color: rgb(19, 19, 24);
+font-size: 40px;
+font-weight: 800;
+}
+
+.des{
+color: rgba(19, 19, 24, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.btn-primary{
+  background-color: rgb(255, 84, 0);
+  padding: 14px 28px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+
+
+/* navbar  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+
+}
+.logo h2{
+font-size: 36px;
+font-weight: 800;
+margin-left: 1rem;
+}
+
+.nav-option{
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-option p{
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+
+

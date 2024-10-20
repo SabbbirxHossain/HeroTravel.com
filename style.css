@@ -10,7 +10,7 @@
 /* Defaul styles  */
 .container{
   width: 90%;
-  margin: 20px auto;
+  margin: 75px auto;
   border-radius: 1rem;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .title{
-color: rgb(19, 19, 24);
+color: white;
 font-size: 40px;
 font-weight: 800;
 }
@@ -32,10 +32,12 @@ font-weight: 400;
 
 .btn-primary{
   background-color: rgb(255, 84, 0);
-  padding: 14px 28px;
+  padding: 12px 24px;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
+  border: none;
+  border-radius:8px ;
 }
 
 
@@ -69,3 +71,54 @@ cursor: pointer;
 }
 
 
+/* Banner  */
+.banner{
+  background-image:linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8),
+    rgba(19, 19, 24, 0)) ,
+    url(Images/g1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem;
+}
+
+.banner-text-content{
+  text-align: center;
+}
+
+.banner-title{
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-text-content p{
+  margin: 20px auto;
+}
+
+
+
+.banner-text-content p{
+  padding: 20px;
+  color: white;
+}
+
+.input-field{
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+.input-field > input,select{
+  width: 174px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 10px;
+}
